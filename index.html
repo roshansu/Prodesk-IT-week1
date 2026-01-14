@@ -6,10 +6,10 @@
   <title>Prodesk IT Digital Agency</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.tailwindcss.com"></script>
 
   <!-- Dark mode config -->
-  <script>
+  <script defer>
     tailwind.config = {
       darkMode: 'class'
     }
@@ -96,7 +96,7 @@
   </div>
 
   <div class="mt-10 hidden md:block md:mt-0">
-    <img 
+    <img loading="lazy"
     class="w-[320px] md:w-[400px] 
     h-[420px] md:h-[500px] 
     object-cover rounded-2xl 
@@ -124,7 +124,7 @@
       rounded-2xl shadow-lg 
       hover:-translate-y-3 transition">
 
-    <img class="rounded-2xl mb-2 
+    <img loading="lazy" class="rounded-2xl mb-2 
       w-full object-cover h-52"
       src="https://plus.unsplash.com/premium_photo-1685283298465-e52e933a3312" alt="SEO">
 
@@ -142,7 +142,7 @@
     rounded-2xl shadow-lg 
     hover:-translate-y-3 transition">
 
-      <img class="rounded-2xl mb-2 
+      <img loading="lazy" class="rounded-2xl mb-2 
       w-full object-cover h-52"
       src="https://plus.unsplash.com/premium_photo-1683147638125-fd31a506a429" alt="Web Development">
 
@@ -160,7 +160,7 @@
     rounded-2xl shadow-lg 
     hover:-translate-y-3 transition">
 
-    <img class="rounded-2xl mb-2 
+    <img loading="lazy" class="rounded-2xl mb-2 
     w-full object-cover h-52"
     src="https://images.unsplash.com/photo-1557838923-2985c318be48" alt="Digital marketing">
 
@@ -190,7 +190,7 @@
 </footer>
 
 
-<script>
+<script defer>
 
 const themeBtn = document.getElementById("themeBtn");
 const mobileThemeBtn = document.getElementById("mobileThemeBtn");
